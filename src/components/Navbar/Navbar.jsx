@@ -11,10 +11,14 @@ const Navbar = () => {
             </div>
             <ul className="hidden lg:flex flex-row gap-2 uppercase text-sm text-white font-bold">
                <li>
-                  <Link className="bg-green-400 p-2 rounded-full">Login</Link>
+                  <Link to="/login" className="bg-green-400 p-2 rounded-full">
+                     Login
+                  </Link>
                </li>
                <li>
-                  <Link className="bg-green-400 p-2 rounded-full">Signup</Link>
+                  <Link to="/register" className="bg-green-400 p-2 rounded-full">
+                     Signup
+                  </Link>
                </li>
             </ul>
             <div
@@ -32,10 +36,14 @@ const Navbar = () => {
             }`}
          >
             <li>
-               <Link className="bg-green-400 p-2 rounded-full">Login</Link>
+               <Link to="/login" className="bg-green-400 p-2 rounded-full">
+                  Login
+               </Link>
             </li>
             <li>
-               <Link className="bg-green-400 p-2 rounded-full">Signup</Link>
+               <Link to="/register" className="bg-green-400 p-2 rounded-full">
+                  Signup
+               </Link>
             </li>
          </ul>
       </div>
